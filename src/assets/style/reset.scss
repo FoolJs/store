@@ -1,0 +1,63 @@
+// 重置样式表
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+pre,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei,
+        Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+fieldset {
+    border: 0;
+    padding: 0.01px 0 0 0;
+    margin: 0;
+    min-width: 0;
+    display: table-cell;
+}
+
+legend {
+    padding: 0 0 0.5em 0;
+    display: table;
+}
+
+input {
+    font: inherit;
+    outline: none;
+}
+
+input,
+button {
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
